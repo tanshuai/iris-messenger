@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "repository": "tanshuai/iris-messenger",
+  "repository_id": 476671085,
+  "date": "2026-10-03",
+  "source_sha": "5cdf0ae0ecc8ee7a984d0a40c83a6378e48e5400",
+  "entries": [
+    {
+      "original_path": ".github/workflows/lint.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/lint.yml",
+      "source_blob_sha": "c902eb4b8fd8f361c8e01b056b31678519ca25a6",
+      "sha256": "60148955dfaf8c112a07d506a6b367c21631926f20aced3ffc927b9c013419b8",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from irislib/iris-messenger",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [],
+      "secret_names": [],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    }
+  ],
+  "code_and_dependency_snapshots": [
+    {
+      "original_path": ".nvmrc",
+      "archived_path": "archive/github-actions/2026-10-03/.nvmrc",
+      "source_blob_sha": "6e52078fa01dfbdf1221047337ab20d81ffc8ba1",
+      "sha256": "2c11589c3af7335e294330673d50d77c197ed936042d855786bcf4a495b80560",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "package.json",
+      "archived_path": "archive/github-actions/2026-10-03/package.json",
+      "source_blob_sha": "90a22ff0fa270cbe7a5ff55d7d2eadd0fd82d32a",
+      "sha256": "54b1522f2045c803e3d84cc7ba5505692992ee2024cbc3aa0223499f1e8ea66d",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "yarn.lock",
+      "archived_path": "archive/github-actions/2026-10-03/yarn.lock",
+      "source_blob_sha": "d807636989d2ae8db3b79fba00bbb43211d6da9a",
+      "sha256": "324e404e28744411bbe7f9f1c2a39020931df6b4edb790c13fa3ef1c4f47dca5",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    }
+  ],
+  "upstream_preflight": {
+    "parent": "irislib/iris-messenger",
+    "source_sha": "5cdf0ae0ecc8ee7a984d0a40c83a6378e48e5400",
+    "ahead_by": 0,
+    "behind_by": 2375,
+    "status": "behind",
+    "retained_runs": 0,
+    "semantic_note": "Current entrypoints reviewed individually; only inherited upstream CI/tests/releases/doc generators, no custom fork commits or live production consumer identified. No repository Actions enabling or passive alert changes."
+  },
+  "caller_check": {
+    "current_all_accessible_workflows": 286,
+    "remaining_reusable_callers": [],
+    "external_dispatch_note": "Declared dispatch/manual entrypoints recorded; entire retired source preserved. No dispatch APIs were invoked."
+  },
+  "passive_security_alerts": "No alert setting changed. Archived version-update YAML is no longer active configuration.",
+  "rollback": "Reviewed source restoration plus explicit workflow enablement; for unsafe cross-repository publishers establish an updated producer/consumer contract and guarded destination before restoring."
+}
